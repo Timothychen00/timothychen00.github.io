@@ -23,7 +23,6 @@ nav{
 .border{
     background-color: white;
     border-radius: 1rem;
-    min-height: 200px;
 }
 
 .line{
@@ -38,6 +37,7 @@ nav{
 .icon:hover{
     color: #2f5faf;
 }
+
 
 
 
@@ -73,6 +73,11 @@ nav{
 
     .slogan{
         height:100px;
+    }
+
+    .member{
+        max-height:702px;
+        max-width:700px;
     }
     
 }
