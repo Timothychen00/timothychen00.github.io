@@ -1,0 +1,159 @@
+
+.body{
+ background-color: #2f5faf;
+ overflow-x: hidden;
+}
+nav{
+    border-radius: 2rem!important;
+    font-size: 30px;
+}
+
+
+.font-size{
+    font-size:20px !important;
+}
+
+.background{
+    background-image: url('/static/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.border{
+    background-color: white;
+    border-radius: 1rem;
+    min-height: 200px;
+}
+
+.line{
+    border-bottom: 5px solid #dadde1
+}
+
+.icon{
+    color:black;
+    text-decoration: none;
+}
+
+.icon:hover{
+    color: #2f5faf;
+}
+
+
+
+
+@media screen and (max-width:768px) { 
+    .logo-word{
+        width: 200px;
+
+    }
+    .logo{
+        display: none !important;
+    }
+    .logo-2{
+        display: none !important;
+    }
+    .word{
+        height:200px;
+        margin-top: 100px;
+    }
+
+    .slogan{
+        height: 30px;
+    }
+    
+  }
+
+@media screen and (min-width:768px) {
+    .word{
+        height:400px;
+        margin-top: 125px;
+        margin-left: 80px;
+    }
+
+    .slogan{
+        height:100px;
+    }
+    
+}
+
+
+.body2{
+    background-color: #2f5faf;
+}
+
+.middle-board{
+    max-width: 350px;
+    min-height: 500px;
+    border-radius: 0.5rem;
+    background-color: black;
+    border-top: 15px solid black;
+    box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
+
+}
+
+.input1 {
+    color: white !important;
+    background-color: rgb(41, 42, 54) !important;
+    border-style: none !important;
+    height:55px;
+  }
+
+#style{
+    border-radius: 5px;
+    color: gray;
+}
+
+.submit{
+    border-radius: 0.5rem;
+    width:230px;
+    color:white;
+    background-color: #2f5faf;
+}
+
+
+.h6{
+    text-decoration: none;
+    color:darkgray
+}
+.h6:hover{
+    text-decoration: none;
+    color:white;
+    font-size:17px;
+}
+
+.body3{
+    background-color:  #2f5faf;
+  }
+  
+  .topic{
+    font-size: xx-large;
+    color: white;
+  }
+  .border2{
+    border-style: none !important;
+    background-color: black;
+    max-width: 500px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  
+  .input2{
+    color: white !important;
+    background-color: rgb(41, 42, 54) !important;
+    border-style: none !important;
+    height:55px;
+  }
+  
+  .submit{
+    border-radius: 0.25rem;
+    border-style: none !important;
+    min-width: 280px;
+    width: 100%;
+    height: 50px;
+    background-color:rgb(56, 118, 234);
+  }
+  
+  .submit:hover{
+    background-color: rgb(53, 109, 222);
+  }
