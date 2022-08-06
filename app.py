@@ -1,17 +1,8 @@
-from flask import*
+from flask import Flask
 from iteration.routes import app_route
-app=Flask(
-    __name__,
-    static_folder="static",
-    static_url_path="/static"
-)
-app.secret_key="any string"
+app=Flask(__name__,static_folder='iteration/static',template_folder='iteration/templates')
 
-@app.route("/")
-def index():
-    session["status"]=None
-    return render_template("home.html")
+app.register_blueprint(app_route)
 
-
-
-app.run(debug=True)
+if __name__=='__main__':
+    app.run(debug=True)
