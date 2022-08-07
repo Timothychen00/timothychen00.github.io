@@ -97,6 +97,11 @@ nav{
 
 /* computer */
 @media screen and (max-width:1000px) { 
+
+    .head-padding{
+        padding-left: 5rem; 
+    } 
+
     .logo-word{
         width: 200px;
 
@@ -125,6 +130,10 @@ nav{
 
 /* cellphone,ipad */
 @media screen and (min-width:1000px) {
+    .head-padding{
+      padding-left: 5rem;
+    }
+
     .word{
         height:400px;
         margin-top: 125px;
@@ -237,13 +246,14 @@ nav{
     height: 250px;
     background-color: #2f5faf;
     position: absolute;
+    transform: translateX(100%);
     z-index: 3;
     animation-name: block;
     animation-duration: 2.5s;
 }
 
 @keyframes block{
-  50%{width: 0px; transform: translateX(460px);}
+  50%{width: 0px; transform: translateX(100%);}
 }
 
 .png{

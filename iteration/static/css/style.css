@@ -11,9 +11,13 @@ body{
 }
 
 /* index-nav */
-nav{
+.nav-top{
     border-radius: 2rem!important;
     font-size:25px !important;
+}
+
+.nav-down{
+  font-size:25px !important;
 }
 
 /* index-background */
@@ -97,6 +101,10 @@ nav{
 
 /* computer */
 @media screen and (max-width:1000px) { 
+    .head-padding{
+      padding-left: 4rem; 
+    }
+
     .logo-word{
         width: 200px;
 
@@ -125,7 +133,11 @@ nav{
 
 /* cellphone,ipad */
 @media screen and (min-width:1000px) {
-    .word{
+  .head-padding{
+    padding-left: 15rem; 
+  }
+
+  .word{
         height:400px;
         margin-top: 125px;
         margin-left: 80px;
@@ -243,7 +255,7 @@ nav{
 }
 
 @keyframes block{
-  50%{width: 0px; transform: translateX(460px);}
+  50%{opacity: 0;}
 }
 
 .png{
