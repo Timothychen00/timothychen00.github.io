@@ -18,6 +18,8 @@ body{
 
 .nav-down{
   font-size:25px !important;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 /* index-background */
