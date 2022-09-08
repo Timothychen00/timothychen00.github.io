@@ -35,6 +35,15 @@ body{
     background-color: white;
 }
 
+.icon-team{
+  color: black;
+  font-size: 45px;
+  margin: .4rem;
+  transition: .5s;
+}
+.icon-team:hover{
+    color: #2f5faf !important;;
+}
 
 .icon{
     color:black;
