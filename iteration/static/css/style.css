@@ -110,7 +110,7 @@ body{
   
    */
 
-/* computer */
+/* cellphone */
 @media screen and (max-width:1000px) { 
     .head-padding{
       padding-left: 4rem; 
@@ -139,10 +139,13 @@ body{
         font-size:25px !important;
         font-weight: 900;
     }
+
     
+    
+
   }
 
-/* cellphone,ipad */
+/* computer */
 @media screen and (min-width:1000px) {
   .head-padding{
     padding-left: 15rem; 
@@ -166,6 +169,13 @@ body{
     .font-size{
         font-size:23px !important;
         font-weight: 900;
+    }
+
+    .time-line{
+      width: 9rem;
+      height: 1rem;
+      background-color: red;
+      font-size: 500px;
     }
     
 }
