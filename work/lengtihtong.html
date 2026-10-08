@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-en="Leng Tih Tong visitor site | Iteration Studio">連得堂訪客網站｜Iteration Studio</title>
+  <meta name="description" content="替台南百年煎餅老店連得堂做的多語系導覽網站：四種語言、給老闆看的點單卡、QR 門口立牌。從開工到第一版上線 67 分鐘。">
+  <link rel="canonical" href="https://iterationteam.com/work/lengtihtong.html">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://iterationteam.com/work/lengtihtong.html">
+  <meta property="og:title" content="連得堂訪客網站｜Iteration Studio">
+  <meta property="og:description" content="掃門口 QR 就能用的四語導覽網站，給看不懂中文的外國遊客。">
+  <meta property="og:image" content="https://iterationteam.com/assets/work/lengtihtong/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f5f6f8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0f13" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="../logo.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+
+<body>
+  <a class="skip" href="#main" data-en="Skip to content">跳到主要內容</a>
+
+  <header class="nav">
+    <div class="wrap nav__in">
+      <a class="brand" href="../" aria-label="Iteration">
+        <img class="brand__logo" src="../assets/brand/logo-160.png" width="34" height="34" alt="">
+        <img class="brand__word" src="../assets/brand/wordmark.png" width="118" height="16" alt="Iteration">
+      </a>
+      <nav class="nav__links" aria-label="主選單" data-en-label="Main">
+        <a href="../#work" data-en="Work">案例</a>
+        <a href="../#services" data-en="Services">服務</a>
+        <a href="../#process" data-en="Process">流程</a>
+        <a href="../#team" data-en="About">關於</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="lang" type="button" data-lang-toggle aria-label="Switch to English">EN</button>
+        <a class="btn btn--primary btn--sm" href="../#contact" data-en="Contact us">聯絡我們</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="cs-head wrap">
+      <a class="back" href="../#work"><i class="ph ph-arrow-left" aria-hidden="true"></i><span data-en="All work">所有案例</span></a>
+      <h1 class="cs-title" data-en="Leng Tih Tong: a visitor site for a 100-year-old cracker shop">連得堂：給百年煎餅老店的外國遊客導覽網站</h1>
+      <p class="cs-sub" data-en="Visitors scan a QR code at the door and get how to buy, the shop's story and an order card, in their own language.">外國遊客在門口掃 QR，就能用自己的語言看懂怎麼買、店的故事，再拿點單卡給老闆看。</p>
+      <dl class="cs-meta">
+        <div>
+          <dt data-en="Deliverables">交付內容</dt>
+          <dd data-en="Multilingual site, order card, QR door stand">多語系網站、點單卡、QR 門口立牌</dd>
+        </div>
+        <div>
+          <dt data-en="Timeline">時程</dt>
+          <dd data-en="September 2026. Main build in 2 days">2026 年 9 月，主要開發 2 天</dd>
+        </div>
+        <div>
+          <dt data-en="Stack">技術</dt>
+          <dd>Astro, Vercel, Claude Code</dd>
+        </div>
+        <div>
+          <dt data-en="Status">狀態</dt>
+          <dd data-en="Course proposal (Creative Industries Practicum). Not yet adopted by the shop">課程提案作品（創意產業研習），店家尚未決定是否正式採用</dd>
+        </div>
+      </dl>
+    </header>
+
+    <div class="wrap">
+      <img class="cs-shot" src="../assets/work/lengtihtong/desktop.webp" width="1800" height="1125"
+        alt="連得堂網站電腦版首屏：鐵模轉盤動畫、店名與「怎麼買」按鈕"
+        data-en-alt="Leng Tih Tong desktop home screen: the iron-mold wheel, the shop name and the How to buy button">
+    </div>
+
+    <section class="cs-block wrap">
+      <div class="prose">
+        <h2 class="h2" data-en="The problem">問題</h2>
+        <p data-en="Leng Tih Tong has baked egg and miso crackers in Tainan since 1926. There are only two flavors, each person can buy two packs a day, and they often sell out early.">連得堂從 1926 年起在台南烤雞蛋、味噌煎餅。現場只有兩種口味，每人每天限購 2 包，常常提早賣完。</p>
+        <p data-en="The line outside often includes visitors who can't read the signs or ask the owner what they want. The shop needed something that works at the door, on the visitor's own phone, with nothing to install.">門口排隊的人裡，常有看不懂告示、也不知道怎麼跟老闆點的外國遊客。店家需要的是在門口就能用、用遊客自己的手機、不用安裝任何東西的工具。</p>
+      </div>
+    </section>
+
+    <section class="cs-block wrap">
+      <h2 class="h2" data-en="What we built">我們做了什麼</h2>
+      <div class="shots">
+        <figure class="reveal">
+          <img src="../assets/work/lengtihtong/mobile-hero.webp" width="640" height="1386" loading="lazy"
+            alt="手機首屏：鐵模轉盤與店名，下方有「怎麼買」和「常見問題」按鈕"
+            data-en-alt="Mobile home screen: the iron-mold wheel and shop name, with How to buy and FAQ buttons">
+          <figcaption data-en="The home screen opens in the phone's language. The shop name stamps down like a seal.">首屏依手機語言自動開啟；店名像印章一樣蓋下。</figcaption>
+        </figure>
+        <figure class="reveal">
+          <img src="../assets/work/lengtihtong/order-card.webp" width="640" height="1386" loading="lazy"
+            alt="點單卡：大字中文寫著你好，我要買雞蛋煎餅 1 包、味噌煎餅 1 包"
+            data-en-alt="Order card in large Chinese: hello, I'd like one pack of egg crackers and one pack of miso crackers">
+          <figcaption data-en="The order card is always in large Chinese for the owner, can be read aloud, and respects the two-pack limit.">點單卡永遠是大字中文，給老闆看，可以唸出來，並自動套用每人 2 包的限購。</figcaption>
+        </figure>
+        <figure class="reveal">
+          <img src="../assets/work/lengtihtong/faq.webp" width="640" height="1386" loading="lazy"
+            alt="常見問題面板：限購、付款方式、口味、預購等問題"
+            data-en-alt="FAQ panel with questions about the purchase limit, payment, flavors and preorders">
+          <figcaption data-en="An FAQ panel, reachable from the first screen, answers what people would otherwise ask at the counter.">常見問題面板從首屏就打得開，回答原本要在櫃台問的事。</figcaption>
+        </figure>
+      </div>
+
+      <ul class="features">
+        <li class="reveal"><i class="ph ph-translate" aria-hidden="true"></i><div><strong data-en="Four languages, chosen automatically">四種語言，自動選擇</strong><span data-en="Chinese, English, Japanese and Korean, each on its own URL. A manual choice is remembered.">中文、English、日本語、한국어，各有自己的網址；手動選過會記住。</span></div></li>
+        <li class="reveal"><i class="ph ph-signpost" aria-hidden="true"></i><div><strong data-en="Door signs, translated">門口告示翻譯</strong><span data-en="The notices posted at the door, plus a card of common phrases to show staff.">翻譯門口的告示，另外附上可以給店員看的常用句卡。</span></div></li>
+        <li class="reveal"><i class="ph ph-hand-tap" aria-hidden="true"></i><div><strong data-en="An interactive 100-year story">可以互動的百年故事</strong><span data-en="Readers press the iron mold to stamp a cracker, and relight the oven after the years the shop was closed.">讀者可以按下鐵模壓出煎餅，也可以在歇業那段重新點火。</span></div></li>
+        <li class="reveal"><i class="ph ph-chart-bar" aria-hidden="true"></i><div><strong data-en="Cookie-free analytics, ready to switch on">不用 cookie 的使用分析</strong><span data-en="Events for language switches, order-card use and FAQ opens are in place, with a tag for stand scans. It turns on once the shop sets up Umami.">切換語言、打開點單卡、打開常見問題等事件都已埋好，也分得出是不是從立牌掃進來；店家設定 Umami 後就會啟用。</span></div></li>
+      </ul>
+    </section>
+
+    <section class="cs-block wrap">
+      <h2 class="h2" data-en="Same page, four languages">同一頁，四種語言</h2>
+      <img class="cs-shot reveal" style="margin-top: 40px" src="../assets/work/lengtihtong/languages.webp" width="1800" height="951" loading="lazy"
+        alt="連得堂網站的中文、英文、日文、韓文首屏並排"
+        data-en-alt="The Leng Tih Tong home screen in Chinese, English, Japanese and Korean, side by side">
+      <p class="cs-caption" data-en="Shop and product names were settled per language during the interviews, for example 玉子せんべい in Japanese and 계란 전병 in Korean.">店名與品名在訪談時逐一定下，例如日文用「玉子せんべい」、韓文用「계란 전병」。</p>
+    </section>
+
+    <section class="cs-block wrap">
+      <div class="cs-split">
+        <div class="prose">
+          <h2 class="h2" data-en="A door stand that is checked before it is printed">印之前就驗證過的門口立牌</h2>
+          <p data-en="A4 and A5 print-ready PDFs in the site's colors. The QR code points straight at the site, with no expiring dynamic-QR service in between.">A4、A5 兩種尺寸的印刷 PDF，配色跟網站一致。QR 直接指向網站，不經過會過期的動態 QR 服務。</p>
+          <p data-en="After the files are generated, a script shrinks the QR code to three sizes and decodes each one to confirm it opens the right address.">檔案產生後，腳本會把 QR 縮成三種尺寸各解碼一次，確認掃出來是正確網址。</p>
+        </div>
+        <img class="reveal" src="../assets/work/lengtihtong/stand.webp" width="900" height="1279" loading="lazy"
+          alt="連得堂門口立牌：店名、QR code 與日文、韓文、中文說明"
+          data-en-alt="Leng Tih Tong door stand with the shop name, a QR code and short instructions in Japanese, Korean and Chinese">
+      </div>
+    </section>
+
+    <section class="cs-block wrap">
+      <h2 class="h2" data-en="How it went">開發過程</h2>
+      <ol class="log">
+        <li>
+          <time data-en="Sep 22, 13:22">9/22 13:22</time>
+          <div><h3 data-en="Kickoff">開工</h3><p data-en="Researched the shop, then three rounds of interviews to set audience, languages, colors and the core feature.">查店家資料，三輪訪談定下對象、語言、配色與核心功能。</p></div>
+        </li>
+        <li>
+          <time data-en="Sep 22, 14:29">9/22 14:29</time>
+          <div><h3 data-en="First version live">第一版上線</h3><p data-en="Deployed to lengtihtong.vercel.app. The URL has not changed since.">部署到 lengtihtong.vercel.app，之後網址都沒有變。</p></div>
+        </li>
+        <li>
+          <time data-en="Sep 22, 14:37">9/22 14:37</time>
+          <div><h3 data-en="QR door stand">QR 門口立牌</h3><p data-en="A4 and A5 PDFs, a preview image and a verified QR code.">A4、A5 PDF、預覽圖，以及驗證過的 QR code。</p></div>
+        </li>
+        <li>
+          <time data-en="Sep 22, 14:51">9/22 14:51</time>
+          <div><h3 data-en="Process saved as skills">流程整理成 skill</h3><p data-en="shop-visitor-site and qr-stand, reusable on the next shop.">shop-visitor-site 與 qr-stand，下一間店可以直接用。</p></div>
+        </li>
+        <li>
+          <time data-en="Sep 23">9/23</time>
+          <div><h3 data-en="Icons, story and FAQ">圖示、故事與常見問題</h3><p data-en="Cracker icons drawn in code and revised twice from feedback, an interactive four-chapter story, and eight FAQs in four languages.">用程式畫的煎餅圖示依回饋改兩版、四章互動百年故事、四種語言的 8 題常見問題。</p></div>
+        </li>
+        <li>
+          <time data-en="Oct 4">10/4</time>
+          <div><h3 data-en="Handover package">成果交接</h3><p data-en="Overview PDF, demo video, screenshots, print files, documents and source code.">成果總覽 PDF、操作示範影片、截圖、印刷檔、文件與原始碼。</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="cs-block wrap">
+      <h2 class="h2" data-en="Where it stands">目前進度</h2>
+      <div class="status">
+        <p data-en="This was a course proposal. The site is live, but some details were written from public sources and still need the owner's confirmation before the shop can adopt it.">這是課程提案作品。網站已經上線，但部分內容根據公開資料撰寫，店家正式採用前還需要老闆確認。</p>
+        <ul>
+          <li><i class="ph ph-check-circle" aria-hidden="true"></i><span data-en="Confirm open items with the owner: payment methods, Sunday hours, prices and the drafted FAQ answers.">請老闆確認待確認清單：付款方式、週日營業、價格與常見問題的擬答。</span></li>
+          <li><i class="ph ph-check-circle" aria-hidden="true"></i><span data-en="Native-speaker review of the Japanese and Korean text.">請日文、韓文母語者校對。</span></li>
+          <li><i class="ph ph-check-circle" aria-hidden="true"></i><span data-en="Replace the archive photos, licensed for non-commercial use only, with the shop's own.">把非商業授權的資料庫照片，換成店家自己拍的照片。</span></li>
+          <li><i class="ph ph-check-circle" aria-hidden="true"></i><span data-en="Print the stand and test-scan it at the door with several phones.">印出立牌，在店門口用幾支不同的手機實際試掃。</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cs-end wrap">
+      <div class="contact__card reveal">
+        <div>
+          <h2 class="h2" data-en="Have a shop or project like this?">也有類似的店或案子嗎？</h2>
+          <p data-en="Tell us what you want solved. We'll scope it and send a quote.">告訴我們你想解決什麼問題，我們評估範圍後回覆報價。</p>
+        </div>
+        <div class="contact__side">
+          <a class="btn btn--primary" href="../#contact" data-en="Contact us">聯絡我們</a>
+          <a class="link" href="https://lengtihtong.vercel.app/" target="_blank" rel="noopener"><span data-en="Open the live site">打開線上網站</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot wrap">
+    <img class="brand__logo" src="../assets/brand/logo-160.png" width="28" height="28" alt="">
+    <p>© 2022-2026 Iteration Studio</p>
+    <nav aria-label="社群" data-en-label="Social">
+      <a href="https://www.facebook.com/IterationStudio2022" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/iteration_2022/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/channel/UCwgVuIGkh3cE-r79nxHVNgA/" target="_blank" rel="noopener">YouTube</a>
+    </nav>
+  </footer>
+
+  <script src="../assets/site.js"></script>
+</body>
+</html>
